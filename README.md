@@ -10,20 +10,15 @@
 5. Update your main README to link back to your Day Journey article
 4. If you need ideas go to [#100DaysOfCloudIdeas](https://github.com/100DaysOfCloud/100DaysOfCloudIdeas)
 
-## How to use this template:
-Fill in your details where you see this icon ✍️
-We have provided a sample Day Journey entry staring at 0. You can delete this example.
+## Sandy (Sheng-Jui) Chang's Cloud Journey
+Hello, it's Sandy (Sheng-Jui) Chang.😄 After accumulating some work experiences and exploring different possibilities, I have decided to do a career change and am currently working towards my goal to kick-start a career in IT industry. 
 
-## [✍️ Your Name]'s Cloud Journey
+Cloud is such a great starting point and powerful tool that it enables enterprises to build applications with higher flexibility and agility. Hence, I wish to use the 100DaysOfCloud challenge to develop my skills and knowledge in Cloud Programming, Cloud Networking, Linux and Unix, and Security. 
 
-[✍️ Introduce yourself]
+I intend to follow the AWS Cloud curriculum and develop my understanding in the fields. At the end of the 100DaysOfCloud challenge, I look forward to keep documenting my cloud journey and creating relevant content on social media to benefit those who are passionate about Cloud/IT. 
 
-[✍️ Tell us why you started this challenge]
-
-[✍️ Tell us where you want to be at the end of the challenge]
-
-- [✍️ Link to your Twitter](https://twitter.com/username)
-- [✍️ Link to your LinkedIn](https://www.linkedin.com/in/username)
+- Connect with Sandy on Linkedin (https://www.linkedin.com/in/sandy-c-7a05621bb/)
+- Connnect with Sandy on Twitter (https://twitter.com/Sandy87163104)
 
 ## Stepping out the door
 
