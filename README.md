@@ -26,7 +26,7 @@ I intend to follow the AWS Cloud curriculum and develop my understanding in the 
 - [ ] ☁️ 2 > [Notes Review](Journey/002/Readme.md)
 - [ ] ☁️ 3 > [Passed the AWS CCP Exam Today](Journey/003/Readme.md)
 - [ ] ☁️ 4 > [Getting Started with the AWS Solutions Architect Exam](Journey/004/Readme.md)
-- [ ] ☁️ 5 > [](Journey/005/Readme.md)
+- [ ] ☁️ 5 > [Summary of AWS Compute Services](Journey/005/Readme.md)
 - [ ] ☁️ 6 > [](Journey/006/Readme.md)
 - [ ] ☁️ 7 > [](Journey/007/Readme.md)
 - [ ] ☁️ 8 > [](Journey/008/Readme.md)
