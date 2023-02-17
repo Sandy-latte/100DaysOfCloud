@@ -61,7 +61,7 @@ Predictive Analytics and ML
 -designed to analyse images, streaming, and stored vids <3 seconds 
 
 #Amazon Comprehend 
--NLP service that uses ML to gain insights in texts. for med case-->Amazon Comprehend Medical-->focouses on extracting info from unstructured med text 
+-NLP service that uses ML to gain insights in texts. for med case-->Amazon Comprehend Medical-->focuses on extracting info from unstructured med text 
 
 
 ## Social Proof
