@@ -23,7 +23,7 @@ d)downside-->the actions of business transactions are synchronous. altho the cal
 Building storage-first serverless applications with HTTP APIs service integrations (https://aws.amazon.com/cn/blogs/compute/building-storage-first-applications-with-http-apis-service-integrations/)
 
 -common pattern for serverless API backend
-Amazon API Gateway-->AWS Lambda-->Amazon ssImple Queue Service 
+Amazon API Gateway-->AWS Lambda-->Amazon Simple Queue Service 
 (using API Gateway as a proxy to an aws lambda function is a common pattern in serverless applications. the lambda functions handles the business logic and comms with other aws/third-party services to route, modify, or store the processed data. place the data in sqs queue for processing downstream. developer takes responsiblity of handling errors and retry logic within the lambda code
 
 
