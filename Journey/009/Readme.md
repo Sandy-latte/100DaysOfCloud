@@ -1,52 +1,38 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+## Decoupling Solutions on AWS (Part 2) 
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+Amazon SQS (https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/working-with-messages.html#setting-up-long-polling)
 
-## Try yourself
+-a fully managed, msg queueing service that can be used to decouple and scale microservices, distributed sys, and serverless apps
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+-it helps developers focus on differntiating work (as it reduces the complexity and overhead associated with managing and operating msg-oriented middleware
 
-### Step 1 — Summary of Step
+-when you create/edit a queue, you can configure the following parameters:
+visibility timeout, msg retention period, delivery delay, max msg size, receive msg size, receive msg wait time, enable content-based deduplication, enable high throughput FIFO, redrive allow policy 
 
-![Screenshot](https://via.placeholder.com/500x300)
+Short polling vs long polling 
 
-### Step 1 — Summary of Step
+short polling 
 
-![Screenshot](https://via.placeholder.com/500x300)
+-when you consume msgs from a queue by using short polling, amazon sqs samples a subset of its server and return msgs from only those servers-->a particular ReceiveMessage request might not return all of your msgs. but if you got <1000 msgs in your queue, a subsequent request woll return your msgs 
+if you keep consuming from your queues-->sqs samples all of its server, and you receive all your msgs 
 
-### Step 3 — Summary of Step
+long polling 
 
-![Screenshot](https://via.placeholder.com/500x300)
+-reduces empty responses by letting sqs wait until a msg is available in a queue before it sends a response. unless the connection times out, the response to the ReceiveMessage request contains at least 1 of the available msgs 
+in rare cases, you might receive empty responses even when a queue still contains msgs, especially if you specify a low value for the ReceiveMessageWaitTimeSeconds parameter 
 
-## ☁️ Cloud Outcome
+-decreases false empty responses by querying all-instead of a subset of-amazon sqs servers 
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+-returns msgs as soon as they become available 
 
-## Next Steps
+-https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/working-with-messages.html#setting-up-long-polling
+https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html
+https://aws.amazon.com/cn/sqs/faqs/
+https://docs.aws.amazon.com/lambda/latest/dg/with-sqs.html
 
-✍️ Describe what you think you think you want to do next.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Tweet](https://twitter.com/Sandy87163104/status/1626599337500479492)
