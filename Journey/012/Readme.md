@@ -1,52 +1,34 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+## Amazon S3 Cross-Region Replication (CRR) and Object Lifecycle & Different Amazon Kinesis Services 
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+S3 CRR
 
-## Try yourself
+-it automatically copies data between buckets across different Regions with lower-latency. regarding the replication-->bucket/shared prefix /object level (by using S3 object tags)
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+-if got compliance, low-latency, regional efficiency requirements-->S3 CRR
 
-### Step 1 — Summary of Step
+S3 Lifecycle 
 
-![Screenshot](https://via.placeholder.com/500x300)
+-rules can be added in s3 lifecycle config to ask s3 to transit objects to another s3 storage class 
 
-### Step 1 — Summary of Step
+Amazon S3 Intelligent-Tiering storage class 
 
-![Screenshot](https://via.placeholder.com/500x300)
+-for unpredictable access patterns. designed for cost optimisation by moving data to the most cost-effective access tier automatically when access patterns change 
 
-### Step 3 — Summary of Step
+-objects <128 KB are not eligible 
 
-![Screenshot](https://via.placeholder.com/500x300)
+Amazon Kinesis (Amazon Kinesis Data Streams, Amazon Kinesis Firehose, Amazon Kinesis Data Analytics, Amazon Kinesis Video Streams)
 
-## ☁️ Cloud Outcome
+#Amazon Kinesis Data Firehose (https://aws.amazon.com/kinesis/data-firehose/?kinesis-blogs.sort-by=item.additionalFields.createdDate&kinesis-blogs.sort-order=desc)
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+-a fully-managed service and designed to load streaming data into data lakes, data stores, and analytics services. it can capture, deliver data to s3, http endpoints, redshift etc. 
 
-## Next Steps
+-can also batch, compress, transform, and encrypt your data streams before loading (minimises storage and increased security)
 
-✍️ Describe what you think you think you want to do next.
+-easier to operate compared to kinesis data streams, but data firehose has a higher latency 
+
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Tweet](https://twitter.com/Sandy87163104/status/1626656207137083392)
