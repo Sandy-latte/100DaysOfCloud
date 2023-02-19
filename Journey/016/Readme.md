@@ -1,52 +1,48 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
-
+AWS Storage (s3 file gateway, ebs, efs, s3)
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+-use aws storage gateway and s3 if the Network File System (NFS) protocol is asked to remian in place for all on-prem applications 
 
-## Try yourself
+AWS Storage Gateway 
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+-use it for storing data in the AWS cloud for cost-effective and data security reasons. supports file-based, volume-based, and tape-based storage solutions 
 
-### Step 1 — Summary of Step
+-it connects on-prem software with cloud-based storage-->provides near-seamless integration with data security features between your on-prem IT environment and the AWS storage infrastructure 
 
-![Screenshot](https://via.placeholder.com/500x300)
+#Amazon S3 File Gateway (the gateway provides access to objects in s3 as files/file-share mount points) 
 
-### Step 1 — Summary of Step
+-supports a file interface into s3 and it combines a service and a virtual software appliance-->the combination allows you to store and retrieve objects in s3 by using industry-standard file protocols, such as Network File System (NFS) ans Server message Block (SMB)
+the software gateway is deployed into your on-prem environment as a VM that runs on VMware ESXi, Microsoft Hyper-V, or Linux Kernel-based VM (KVM) hypervisor 
 
-![Screenshot](https://via.placeholder.com/500x300)
+-it is designed to simplify file storage in s3
+with it, you can: store and retrieve files directly by using NFS/SMB & access data in s3 directly & manage s3 data by using lifecycle policies, CRR, and versioning
+-->s3 file gateway can be seen as a file sys mounted on s3 
 
-### Step 3 — Summary of Step
+#EBS (https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-volume-types.html)
 
-![Screenshot](https://via.placeholder.com/500x300)
+-[CRUCIAL] note different EBS volume types and sizes, and how IOPS are related to volume size and type 
 
-## ☁️ Cloud Outcome
+-can be attached to your amazon ec2 instances
+after attaching a volume to an instance, you can increase size, revise the provisioned IOPS capacity, and change volume type 
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+-types: Solid-state drive (SSD), Hard disk drive (HDD), and Previous Generation 
 
-## Next Steps
+a)SSD-->optimised for transactional workloads involving frequent read/write operations with small I/O size, where the dominant performance attribute is IOPS. it includes General Purpose SSD volumes and Provisioned IOPS SSD volumes 
 
-✍️ Describe what you think you think you want to do next.
+b)Hard Disk Drive (HDD)-->optimised ofr large, streaming workloads where the dominant performance attribute is throughput. it includes Throughput Optimised HDD and Cold HDD volumes 
+
+c)previous generation-->aws recommend using a current generation volumn type. hard disk drives that you use for workloads with small datasets, where data is accessed infrequently and performance does not come first 
+
+@@number of available IOPs grows with the size of the volume. hence, if you need more IOPs-->must scale the volume vertically 
+
+#Amazon EFS
+
+-it minimises the need to provision and manage capacity. it has a web service interface that you can use to create and config file sys quickly. the service manages all the file infrastructure for you (helps reduces complexity of deploying, patching, and maintaining complex file sys configs 
+
+-it supports NFS version 4 (NFSv4.1 and NFSv4.0). multiple compute instanes can acccess an efs sys meanwhile-->efs can thus offer a data source for workloads and applications that run on more than one compute instance/server 
+
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+[Tweet](https://twitter.com/Sandy87163104/status/1627348870370828291)
