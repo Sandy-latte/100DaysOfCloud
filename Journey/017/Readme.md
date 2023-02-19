@@ -1,52 +1,29 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+AWS services for hybrid deployments 
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+#Amazon ECS Anywhere https://www.ecsworkshop.com/ecsanywhere/introduction/overview/
+-->a fully managed service that helps reduce costs and mitigate complex local container orchestration 
 
-## Try yourself
+#AWS System Manager 
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+-Remotely run commands on an EC2 instance with AWS System Manager 
+first set up permissions via IAM-->launch an Amazon Linux instance that was pre-installed with the Systems Manager agent-->finally you use Run Command to update the agent and remotely perform an update 
+https://aws.amazon.com/getting-started/hands-on/remotely-run-commands-ec2-instance-systems-manager/
 
-### Step 1 — Summary of Step
+https://mng.workshop.aws/ssm.html
 
-![Screenshot](https://via.placeholder.com/500x300)
+https://docs.aws.amazon.com/zh_cn/systems-manager/latest/userguide/what-is-systems-manager.html
 
-### Step 1 — Summary of Step
+-use aws system manager when you need to: view operation data for resources groups, automate operational actions, understand and control the current state of your resources, manage hybrid environments, and maintain security and compliance 
 
-![Screenshot](https://via.placeholder.com/500x300)
+#AWS Backup https://docs.aws.amazon.com/zh_cn/aws-backup/latest/devguide/whatisbackup.html
 
-### Step 3 — Summary of Step
+-a cost-effective, fully managed service to centralise and simplify data protection at scale. together with AWS Organizations, you can use AWS Backup to centrally deploy data protection policies to config, manage your backup activity across your company's AWS AWS accs and resources 
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+[Tweet](https://twitter.com/Sandy87163104/status/1627435724181045250)
