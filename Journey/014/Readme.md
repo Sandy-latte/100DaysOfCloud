@@ -1,52 +1,38 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+Running containers on AWS and NAT Gateways 
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+-[crucial] https://aws.amazon.com/cn/containers/faqs/?nc1=h_ls
 
-## Try yourself
+-Container orchestration tool (https://aws.amazon.com/containers/): Amazom ECS or Amazon Elastic Kubernetes Services (Amazon EKS)
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+-Amazon ECS launch types: EC2 (deploy and manage your won ec2 instances cluster & when client want to use a custom thing), AWS Fargate (run containers directly, without any ec2 instances) 
+https://docs.aws.amazon.com/AmazonECS/latest/developerguide/launch_types.html
 
-### Step 1 — Summary of Step
+#EC2 launch type-->ECS agent is installed on each ec2 instance in the cluster. ecs agent enables the orchestration tool that ecs uses to manage nodes 
 
-![Screenshot](https://via.placeholder.com/500x300)
+Connect to the interney/other networks using NAT devices (https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat.html)
 
-### Step 1 — Summary of Step
+-use NAT Gateways or NAT instances to to allow reources in private subnets to connect to thr internet/other VPCs/on-premises networks 
 
-![Screenshot](https://via.placeholder.com/500x300)
+-use NAT Gateway (managed by AWS) or NAT instance (create your own NAT device on an EC2 instance). aws recommends using NAT gateways as they offer better bandwidth and availability 
 
-### Step 3 — Summary of Step
+-https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-comparison.html
 
-![Screenshot](https://via.placeholder.com/500x300)
+#NAT instances 
 
-## ☁️ Cloud Outcome
+-the NAT device replaces the source IPv4 address of the instances with the address of the NAT device 
+when the NAT device sends response traffic to the instances, the device translates the addresses back to the original source IPv4 address 
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+#NAT Gateways 
 
-## Next Steps
+-use a NAT gateway soe that instances in a private subnet can connect to devices that are outside your VPC, but external services can't connect to those instances 
 
-✍️ Describe what you think you think you want to do next.
+-when you create a NAT gateway, specify public (default) or private
+
+-NAT gateway replaces the source IP address of the instances with the IP address of the NAT gateway
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+[Tweet](https://twitter.com/Sandy87163104/status/1627272171474104321)
