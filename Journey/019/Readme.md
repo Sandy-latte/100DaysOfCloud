@@ -1,52 +1,35 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+Infrastructure Logging Services 
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+-include: AWS CloudTrail, AWS Config, VPC Flow Logs, and Amazon GuardDuty
 
-## Try yourself
+#AWS CloudTrail-->typically delivers logs within an average of 15min after an API call. with CloudTrail, user in an organisations management acc can create an org trail that logs all events for all aws accs in the org
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+#AWS Config
+[crucial] understand the differences between AWS CloudTrail and AWS Config 
 
-### Step 1 — Summary of Step
+-it offers a detailed view of how AWS resources are configured in your aws acc. (the config includes how resources are related to one another and you'll be able to see the configs and relations changes). use AWS Config to get an inventory of the resources that you have in your aws acc, then you apply rules for how those resources are configured 
+(AWS resource-->an entity that you can work with AWS, suhc as EC2 instance, an EBS volume, a security group, a VPC)
 
-![Screenshot](https://via.placeholder.com/500x300)
+-resource config, auditing and compliance, managing and troubleshooting config changes, security analysis 
 
-### Step 1 — Summary of Step
+#VPC Flow Logs 
 
-![Screenshot](https://via.placeholder.com/500x300)
+-a feature that you can use to capture info about the IP traffic that goes to and from network interfaces in your VPC
 
-### Step 3 — Summary of Step
+-flow log data can be published to Amazon CloudWatch Logs/Amazon S3 
 
-![Screenshot](https://via.placeholder.com/500x300)
+-flow logs help with: diagnosing overly restrictive security rules, monitoring the traffice that reaches your instance, determining the direction of the traffic to and from the network interfaces 
 
-## ☁️ Cloud Outcome
+-flow log data is collected outside the path of your network traffic and thus it does not affect network throughput/latency 
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+#Amazon GuardDuty https://docs.aws.amazon.com/guardduty/latest/ug/what-is-guardduty.html
 
-## Next Steps
+-security monitoring service that analyses and processes data sources, such as CloudTrail data events for Amazon S3 logs, Cloudtrail management event logs, Amazon EBS volume data, Amazon EKS audit logs, and Amazon VPC flow logs 
 
-✍️ Describe what you think you think you want to do next.
+-uses threat intelligence feeds and ML to identify unexpected, malicious, unauthorised activity within your aws environment
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Tweet](https://twitter.com/Sandy87163104/status/1627684155046731777)
