@@ -1,52 +1,32 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+Automatic Account Provisioning (AWS CloudFormation, AWS Control Tower, AWS Service Catalog) 
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+AWS CloudFormation 
 
-## Try yourself
+-[crucial] https://www.wellarchitectedlabs.com/reliability/100_labs/100_deploy_cloudformation/
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+AWS Control Tower https://docs.aws.amazon.com/controltower/latest/userguide/what-is-control-tower.html
+https://docs.aws.amazon.com/controltower/latest/userguide/terminology.html
 
-### Step 1 — Summary of Step
+-got features, such as landing zone, controls, account factory, dashboard 
 
-![Screenshot](https://via.placeholder.com/500x300)
+-extends the capabilities of organisations. to help protect your organisations and accs from being affected by drift (or divergence from the best practices), AWS Control Tower applies preventive and detective controls (or guardrails) 
+for ex., you can use guardrails to help nsure that security logs and necessary cross-acc access permissions are created, but not altered
 
-### Step 1 — Summary of Step
+-it uses CloudFormation StackSets to set up resources in your accs. each stack set has stack instances that correspond to accs, and to aws Regions per acc. AWS Control Tower deploys one stack setinstance per acc and Region 
 
-![Screenshot](https://via.placeholder.com/500x300)
+(stack: a collection of aws resources that you can manage as a single unit
 
-### Step 3 — Summary of Step
+stack instance: a refernce to a stack in a target acc within a Region)
 
-![Screenshot](https://via.placeholder.com/500x300)
+AWS Service Catalog https://docs.aws.amazon.com/servicecatalog/latest/adminguide/introduction.html
 
-## ☁️ Cloud Outcome
+-with it, organsiations can create and manage catalogs of IT serivces that are approved for aws. organisations can use aws service catalog to centrally manage commonly deployed IT services 
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
+-it provides the benefits: standardisation, self-service discovery and launch, fine-grained access control, extensibility and version control 
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+[Tweet](https://twitter.com/Sandy87163104/status/1627741373381152802)
