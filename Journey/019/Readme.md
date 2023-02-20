@@ -32,4 +32,4 @@ Infrastructure Logging Services
 
 ## Social Proof
 
-[Tweet](https://twitter.com/Sandy87163104/status/1627684155046731777)
+[Tweet](https://twitter.com/Sandy87163104/status/1627684641845960704)
