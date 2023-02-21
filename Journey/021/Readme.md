@@ -1,52 +1,25 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
-
+Multi-acc best practices 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+Multi-acc environments 
 
-## Try yourself
+-core concepts of AWS Organisations and service control policies (SCPs). also it offers suggestions on different organisation unit (OU) structures for different use cases (such as a corporate OU, a production public-facing OU, a production internal-facing OU, and a security OU)
+https://aws.amazon.com/cn/blogs/industries/best-practices-for-aws-organizations-service-control-policies-in-a-multi-account-environment/
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+-Organsing your aws environment using multiple accs-->https://docs.aws.amazon.com/zh_cn/whitepapers/latest/organizing-your-aws-environment/benefits-of-using-multiple-aws-accounts.html
 
-### Step 1 — Summary of Step
+-Estaablishing your best practice with AWS environemnt-->https://aws.amazon.com/cn/organizations/getting-started/best-practices/
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 1 — Summary of Step
+Tag policies and SCPs 
 
-![Screenshot](https://via.placeholder.com/500x300)
+-you can set tag policies with Organisations 
 
-### Step 3 — Summary of Step
+-tag policy might be adequate if you as IaC to provision environemnts. with IaC, environments will be created from a CloudFormaton template, and you'll be able to embed tags in the template 
 
-![Screenshot](https://via.placeholder.com/500x300)
+-use SCPs if you wanna prevent creation of new aws resources that aren't taggged-->that is, use SCPs to ensure the aws resources are created only if a certain tag exists
 
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Tweet](https://twitter.com/Sandy87163104/status/1628064949300875264)
