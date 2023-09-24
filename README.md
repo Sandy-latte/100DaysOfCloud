@@ -49,7 +49,7 @@ I intend to follow the AWS Cloud curriculum and develop my understanding in the 
 ## Crossing the bridge
 
 - [ ] ☁️ 21 > [Tag policies and SCPs & multi-account environments](Journey/021/Readme.md)
-- [ ] ☁️ 22 > [](Journey/022/Readme.md)
+- [ ] ☁️ 22 > [Exam notes review 1 and scenarios](Journey/022/Readme.md)
 - [ ] ☁️ 23 > [](Journey/023/Readme.md)
 - [ ] ☁️ 24 > [](Journey/024/Readme.md)
 - [ ] ☁️ 25 > [](Journey/025/Readme.md)
