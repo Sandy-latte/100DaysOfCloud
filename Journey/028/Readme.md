@@ -1,52 +1,24 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+Intro to data lakes
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+What is a data lake? https://aws.amazon.com/big-data/datalakes-and-analytics/what-is-a-data-lake/ 
 
-## Try yourself
+a centralised repository that allows you to store all your structured and unstructured data at any scale. you can just store the data as-is, wuthout having to first structure the data, and run different types of analytics 
+survey shows that companies who implemented a Data Lake outperforming similar companies by 9% in organic revenue growth
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+Building big data storage solutions (data lakes) for max flexibility 
 
-### Step 1 — Summary of Step
+-organisations are collecting and analysing data at a large scale, making it difficult for traditional on-premises solutions to keep pace. Amazon S3 and S3 Glacier provide an ideal storage solution for data lakes 
 
-![Screenshot](https://via.placeholder.com/500x300)
+Data lakes vs data warehouses 
 
-### Step 1 — Summary of Step
+-a typical org will require boht a data lakes and data warehouse as they serve different needs 
 
-![Screenshot](https://via.placeholder.com/500x300)
+-Data warehouse: a database optimised to analyse relational data coming from transactional systems and line of business applications. the data structure, schema are defined in advance to optimise for fast sql queries, where the results are used for analysis. data is cleaned, enriched, and transformed
 
-### Step 3 — Summary of Step
+-Data lake: stores relational data from line of business applications, and non-relational data from IoT devices and social media. the structure of data/schema is not defined when data is captured, which means u can store your data without careful design or thinking about the questions u might want to ask in the future. organisations are seeing the benefits of data lakes and are evolving their warehouses to include data lakes
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
 
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
