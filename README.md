@@ -50,14 +50,14 @@ I intend to follow the AWS Cloud curriculum and develop my understanding in the 
 
 - [ ] ☁️ 21 > [Tag policies and SCPs & multi-account environments](Journey/021/Readme.md)
 - [ ] ☁️ 22 > [Exam notes review 1 and scenarios](Journey/022/Readme.md)
-- [ ] ☁️ 23 > [](Journey/023/Readme.md)
-- [ ] ☁️ 24 > [](Journey/024/Readme.md)
-- [ ] ☁️ 25 > [](Journey/025/Readme.md)
-- [ ] ☁️ 26 > [](Journey/026/Readme.md)
-- [ ] ☁️ 27 > [](Journey/027/Readme.md)
-- [ ] ☁️ 28 > [](Journey/028/Readme.md)
-- [ ] ☁️ 29 > [](Journey/029/Readme.md)
-- [ ] ☁️ 30 > [](Journey/030/Readme.md)
+- [ ] ☁️ 23 > [(PLACEHOLDER EXERCISE 1)](Journey/023/Readme.md)
+- [ ] ☁️ 24 > [(PLACEHOLDER EXERCISE 2)](Journey/024/Readme.md)
+- [ ] ☁️ 25 > [(PLACEHOLDER EXERCISE 3)](Journey/025/Readme.md)
+- [ ] ☁️ 26 > [(PLACEHOLDER EXERCISE 4)](Journey/026/Readme.md)
+- [ ] ☁️ 27 > [(PLACEHOLDER CAPSTONE PROJECT)](Journey/027/Readme.md)
+- [ ] ☁️ 28 > [What is a data lake](Journey/028/Readme.md)
+- [ ] ☁️ 29 > [AWS data-related services-s3 and glue catalog](Journey/029/Readme.md)
+- [ ] ☁️ 30 > [More on Kinesis family](Journey/030/Readme.md)
 
 ## Into the bushy, thorny forest
 
