@@ -1,4 +1,4 @@
-Processing data in data lake 
+Processing data in data lakes
 
 ## Cloud Research
 
