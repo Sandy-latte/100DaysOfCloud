@@ -1,52 +1,41 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+More on Aamzon Kinesis 
 
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+Kinesis family https://aws.amazon.com/tw/kinesis/
 
-## Try yourself
+-makes it easy to collect, process, analyse real-time streaming data so u can get timely insights 
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+kinesis data streams 
 
-### Step 1 — Summary of Step
+-the data collected is avaialble in milliseconds to enable real-time analytics use cases such as real-time dashboards, anomaly detection, dynamic pricing, and more 
 
-![Screenshot](https://via.placeholder.com/500x300)
+kinesis firehose https://aws.amazon.com/tw/kinesis/data-firehose/?kinesis-blogs.sort-by=item.additionalFields.createdDate&kinesis-blogs.sort-order=desc
 
-### Step 1 — Summary of Step
+-the easiest way to reliably load streaming data into data lakes, data stores, and analytics services. it can capture, transform, and deliver streaming data to s3. redshift, elastisearch, generic HTTP endpoints, and service providers like Datadog, New Relic, MongoDB, and Splunk
 
-![Screenshot](https://via.placeholder.com/500x300)
+-It's a fully managed service that automaticalaly scales to match the throughput of your data and requires no ongoing admin. it can also batch, compress, transform, and encrypt ur data before loading, minimising the amount of storage ussed and increasing security
 
-### Step 3 — Summary of Step
+kinesis data analytics 
 
-![Screenshot](https://via.placeholder.com/500x300)
+-the easiest way to transform and analyse streaming daat in real time with Apache Flink. Apache Flink is an open source framework and engine for processing data streams 
 
-## ☁️ Cloud Outcome
+-takes care of everything required to run streaming applications continuously, and scales automatically to match the volume and throughput of ur incoming data. with kinesiss data analytics, there are no servers to manage, no min fee for setup cost
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+data ingestion methods 
+aws snow family 
 
-## Next Steps
+-helps customers that need to run operations in austere, non-data centre environments, and in locas where there's lack of consistent network connectivity. the dnow family, comprised of snowcone, snowball, and snowmobile, offers a number of physical devices and capacity points, most with built-in computing capabilities
 
-✍️ Describe what you think you think you want to do next.
+-snowcone is the smallest memeber of the snow family of edge computing and data transfer devices. snowcone is portable, rugged, and secure-smallenough to fit into a backpack and able to withstand harsh environments. customers use snowcone to deploy applications at the edge, and to collect data, process it locally, and move it to aws either offline (by shipping the device to aws) or online (by using aws datasync on snowcone to send the data to aws over the network)
 
-## Social Proof
+the importance of data cataloging 
 
-✍️ Show that you shared your process on Twitter or LinkedIn
+-building a data lake involves keeping track of all the raw assets as they were loaded into the data lake, and then tracking all of the new data assets and versions that were created by data transformation, data processing, and analytics. thus, an essential part of s3-based data lake is the data catalog. the data catalog provides a query-able interface of all assets stored in the data lake's s3 buckets 
 
-[link](link)
+-2 forms of a data catalog: a comprehensive data catalog that contains info about all assets that have beem ingested into the s3 data lake & a Hive Metastore Catalog (HCatalog) that contains info about data assets that have been transformed into formats and table definitions that are usable by analytics tools
+
+
+
+
