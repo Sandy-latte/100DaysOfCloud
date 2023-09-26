@@ -62,7 +62,7 @@ I intend to follow the AWS Cloud curriculum and develop my understanding in the 
 ## Into the bushy, thorny forest
 
 - [ ] ☁️ 31 > [Processing data in data lakes](Journey/031/Readme.md)
-- [ ] ☁️ 32 > [](Journey/032/Readme.md)
+- [ ] ☁️ 32 > [(PLACEHOLDER intro to designing data lakes on aws capstone project](Journey/032/Readme.md)
 - [ ] ☁️ 33 > [](Journey/033/Readme.md)
 - [ ] ☁️ 34 > [](Journey/034/Readme.md)
 - [ ] ☁️ 35 > [](Journey/035/Readme.md)
