@@ -1,6 +1,6 @@
 ## Cloud Research - AWS data related services: S3 and Glue Catalog 
 
-S3 (Simple Storage Service)
+##S3 (Simple Storage Service)
 
 -storage for the Internet. It's designed to make web-scale computing easier for developers. it gives developers access to highly scalable, fast, and inexpensive data infrastructure. it aims to max benefits for developers 
 
