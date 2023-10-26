@@ -23,15 +23,15 @@ I intend to follow the AWS Cloud curriculum and develop my understanding in the 
 ## Stepping out the door
 
 - [ ] ☁️ 1 > [My First Day](Journey/001/Readme.md)
-- [ ] ☁️ 2 > [Notes Review](Journey/002/Readme.md)
-- [ ] ☁️ 3 > [Passed the AWS CCP Exam Today](Journey/003/Readme.md)
-- [ ] ☁️ 4 > [Getting Started with the AWS Solutions Architect Exam](Journey/004/Readme.md)
+- [ ] ☁️ 2 > [AWS CCP Review](Journey/002/Readme.md)
+- [ ] ☁️ 3 > [PASSED the AWS CCP Exam Today!](Journey/003/Readme.md)
+- [ ] ☁️ 4 > [SAA - Getting Started with the AWS SAA Exam](Journey/004/Readme.md)
 - [ ] ☁️ 5 > [Summary of AWS Compute Services](Journey/005/Readme.md)
 - [ ] ☁️ 6 > [Databases on AWS](Journey/006/Readme.md)
 - [ ] ☁️ 7 > [Event-driven architectures on AWS](Journey/007/Readme.md)
 - [ ] ☁️ 8 > [Developing solutions on AWS pt1](Journey/008/Readme.md)
 - [ ] ☁️ 9 > [Developing Solutions on AWS pt2](Journey/009/Readme.md)
-- [ ] ☁️ 10 > [Optimising Architectures](Journey/010/Readme.md)
+- [ ] ☁️ 10 > [Optimising Architectures for case 1, 2](Journey/010/Readme.md)
 
 ## Walking down the road
 
@@ -49,41 +49,41 @@ I intend to follow the AWS Cloud curriculum and develop my understanding in the 
 ## Crossing the bridge
 
 - [ ] ☁️ 21 > [Tag policies and SCPs & multi-account environments](Journey/021/Readme.md)
-- [ ] ☁️ 22 > [Exam notes review 1 and scenarios](Journey/022/Readme.md)
-- [ ] ☁️ 23 > [(PLACEHOLDER EXERCISE 1)](Journey/023/Readme.md)
-- [ ] ☁️ 24 > [(PLACEHOLDER EXERCISE 2)](Journey/024/Readme.md)
-- [ ] ☁️ 25 > [(PLACEHOLDER EXERCISE 3)](Journey/025/Readme.md)
-- [ ] ☁️ 26 > [(PLACEHOLDER EXERCISE 4)](Journey/026/Readme.md)
-- [ ] ☁️ 27 > [(PLACEHOLDER CAPSTONE PROJECT)](Journey/027/Readme.md)
-- [ ] ☁️ 28 > [What is a data lake](Journey/028/Readme.md)
-- [ ] ☁️ 29 > [AWS data-related services-s3 and glue catalog](Journey/029/Readme.md)
-- [ ] ☁️ 30 > [More on Kinesis family](Journey/030/Readme.md)
+- [ ] ☁️ 22 > [(placeholder. more info on saa)](Journey/022/Readme.md)
+- [ ] ☁️ 23 > [(placeholder. more info on saa later)](Journey/023/Readme.md)
+- [ ] ☁️ 24 > [(placeholder. more info on saa later)](Journey/024/Readme.md)
+- [ ] ☁️ 25 > [(placeholder. more info on saa later)](Journey/025/Readme.md)
+- [ ] ☁️ 26 > [(placeholder. more info on saa later)](Journey/026/Readme.md)
+- [ ] ☁️ 27 > [(placeholder. more info on saa later)](Journey/027/Readme.md)
+- [ ] ☁️ 28 > [(placeholder) SAA Exercise 1 ](Journey/028/Readme.md)
+- [ ] ☁️ 29 > [(placeholder) SAA Exercise 2](Journey/029/Readme.md)
+- [ ] ☁️ 30 > [(placeholder) SAA Capstone Project](Journey/030/Readme.md)
 
 ## Into the bushy, thorny forest
 
-- [ ] ☁️ 31 > [Processing data in data lakes](Journey/031/Readme.md)
-- [ ] ☁️ 32 > [(PLACEHOLDER intro to designing data lakes on aws capstone project)](Journey/032/Readme.md)
-- [ ] ☁️ 33 > [](Journey/033/Readme.md)
-- [ ] ☁️ 34 > [](Journey/034/Readme.md)
-- [ ] ☁️ 35 > [](Journey/035/Readme.md)
-- [ ] ☁️ 36 > [](Journey/036/Readme.md)
-- [ ] ☁️ 37 > [](Journey/037/Readme.md)
-- [ ] ☁️ 38 > [](Journey/038/Readme.md)
-- [ ] ☁️ 39 > [](Journey/039/Readme.md)
-- [ ] ☁️ 40 > [](Journey/040/Readme.md)
+- [ ] ☁️ 31 > [(placeholder)SAA Revision](Journey/031/Readme.md)
+- [ ] ☁️ 32 > [(placeholder)SAA Revision](Journey/032/Readme.md)
+- [ ] ☁️ 33 > [(placeholder)SAA Revision](Journey/033/Readme.md)
+- [ ] ☁️ 34 > [(placeholder)SAA Revision](Journey/034/Readme.md)
+- [ ] ☁️ 35 > [(placeholder)SAA Revision](Journey/035/Readme.md)
+- [ ] ☁️ 36 > [Designing Data Lakes on AWS: What is a data lake](Journey/036/Readme.md)
+- [ ] ☁️ 37 > [Designing Data Lakes on AWS: AWS data-related services-s3 and glue catalog](Journey/037/Readme.md)
+- [ ] ☁️ 38 > [Designing Data Lakes on AWS: More on Kinesis family](Journey/038/Readme.md)
+- [ ] ☁️ 39 > [Designing Data Lakes on AWS: Processing data in data lakes](Journey/039/Readme.md)
+- [ ] ☁️ 40 > [(placeholder) Exercise 1](Journey/040/Readme.md)
 
 ## Trekking the dunes
 
-- [ ] ☁️ 41 > [](Journey/041/Readme.md)
-- [ ] ☁️ 42 > [](Journey/042/Readme.md)
-- [ ] ☁️ 43 > [](Journey/043/Readme.md)
-- [ ] ☁️ 44 > [](Journey/044/Readme.md)
-- [ ] ☁️ 45 > [](Journey/045/Readme.md)
-- [ ] ☁️ 46 > [](Journey/046/Readme.md)
-- [ ] ☁️ 47 > [](Journey/047/Readme.md)
-- [ ] ☁️ 48 > [](Journey/048/Readme.md)
-- [ ] ☁️ 49 > [](Journey/049/Readme.md)
-- [ ] ☁️ 50 > [](Journey/050/Readme.md)
+- [ ] ☁️ 41 > [(placeholder) Exercise 2](Journey/041/Readme.md)
+- [ ] ☁️ 42 > [(placeholder) Exercise 3 ](Journey/042/Readme.md)
+- [ ] ☁️ 43 > [(placeholder) ML on AWS](Journey/043/Readme.md)
+- [ ] ☁️ 44 > [(placeholder) Exercise 1](Journey/044/Readme.md)
+- [ ] ☁️ 45 > [(placeholder) Exercise 2](Journey/045/Readme.md)
+- [ ] ☁️ 46 > [(placeholder) Exercise 3](Journey/046/Readme.md)
+- [ ] ☁️ 47 > [(placeholder) Exercise 4](Journey/047/Readme.md)
+- [ ] ☁️ 48 > [(placeholder) Exercise 5](Journey/048/Readme.md)
+- [ ] ☁️ 49 > [(placeholder) Revision](Journey/049/Readme.md)
+- [ ] ☁️ 50 > [(placeholder) Revision](Journey/050/Readme.md)
 
 ## Winding through the canyons
 
