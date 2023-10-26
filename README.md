@@ -55,8 +55,8 @@ I intend to follow the AWS Cloud curriculum and develop my understanding in the 
 - [ ] ☁️ 25 > [(placeholder. more info on saa later)](Journey/025/Readme.md)
 - [ ] ☁️ 26 > [(placeholder. more info on saa later)](Journey/026/Readme.md)
 - [ ] ☁️ 27 > [(placeholder. more info on saa later)](Journey/027/Readme.md)
-- [ ] ☁️ 28 > [(placeholder) SAA Exercise 1 ](Journey/028/Readme.md)
-- [ ] ☁️ 29 > [(placeholder) SAA Exercise 2](Journey/029/Readme.md)
+- [ ] ☁️ 28 > [SAA Exercise 1 ](Journey/028/Readme.md)
+- [ ] ☁️ 29 > [SAA Exercise 2](Journey/029/Readme.md)
 - [ ] ☁️ 30 > [(placeholder) SAA Capstone Project](Journey/030/Readme.md)
 
 ## Into the bushy, thorny forest
