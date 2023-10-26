@@ -54,7 +54,7 @@ I intend to follow the AWS Cloud curriculum and develop my understanding in the 
 - [ ] ☁️ 24 > [(placeholder. cloud project)](Journey/024/Readme.md)
 - [ ] ☁️ 25 > [(placeholder. cloud project)](Journey/025/Readme.md)
 - [ ] ☁️ 26 > [(placeholder.  cloud project)](Journey/026/Readme.md)
-- [ ] ☁️ 27 > [(placeholder. whitepapaer )](Journey/027/Readme.md)
+- [ ] ☁️ 27 > [(placeholder. cloudresumeproject )](Journey/027/Readme.md)
 - [ ] ☁️ 28 > [SAA Exercise 1 ](Journey/028/Readme.md)
 - [ ] ☁️ 29 > [SAA Exercise 2](Journey/029/Readme.md)
 - [ ] ☁️ 30 > [(placeholder) SAA Capstone Project or the #CloudResumeChallenge](Journey/030/Readme.md)
