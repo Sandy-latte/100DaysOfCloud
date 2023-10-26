@@ -1,6 +1,7 @@
 ## Cloud Research
 
 Kinesis family https://aws.amazon.com/tw/kinesis/
+
 Kinesis Firehose https://aws.amazon.com/tw/kinesis/data-firehose/?kinesis-blogs.sort-by=item.additionalFields.createdDate&kinesis-blogs.sort-order=desc
 
 Kinesis data analytics-the easiest way to transform and analyse streaming data in real time with Apache Flink. Apache Flink is an open source framework and engine for processing data streams 
