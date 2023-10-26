@@ -61,11 +61,11 @@ I intend to follow the AWS Cloud curriculum and develop my understanding in the 
 
 ## Into the bushy, thorny forest
 
-- [ ] ☁️ 31 > [(placeholder)SAA Revision](Journey/031/Readme.md)
-- [ ] ☁️ 32 > [(placeholder)SAA Revision](Journey/032/Readme.md)
-- [ ] ☁️ 33 > [(placeholder)SAA Revision](Journey/033/Readme.md)
-- [ ] ☁️ 34 > [(placeholder)SAA Revision](Journey/034/Readme.md)
-- [ ] ☁️ 35 > [(placeholder)SAA Revision](Journey/035/Readme.md)
+- [ ] ☁️ 31 > [SAA Revision](Journey/031/Readme.md)
+- [ ] ☁️ 32 > [SAA Revision](Journey/032/Readme.md)
+- [ ] ☁️ 33 > [SAA Revision](Journey/033/Readme.md)
+- [ ] ☁️ 34 > [SAA Revision](Journey/034/Readme.md)
+- [ ] ☁️ 35 > [SAA Revision](Journey/035/Readme.md)
 - [ ] ☁️ 36 > [Designing Data Lakes on AWS: What is a data lake](Journey/036/Readme.md)
 - [ ] ☁️ 37 > [Designing Data Lakes on AWS: AWS data-related services-s3 and glue catalog](Journey/037/Readme.md)
 - [ ] ☁️ 38 > [Designing Data Lakes on AWS: More on Kinesis family](Journey/038/Readme.md)
