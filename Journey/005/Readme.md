@@ -3,16 +3,16 @@
 
 Compute 
 
-AWS Lambda 
+✍️ AWS Lambda 
 -Lambda functions can run for up to 15min-->processes that need >15min to run, use other aws compute services for hosting 
 
--when using lambda, you are omnly responsible for your code-->makes it easier to optimise for operational efficiency and low operational overhead 
+-when using lambda, you are only responsible for your code-->makes it easier to optimise for operational efficiency and low operational overhead 
 
 -lambda manages the compute fleet, which offers a balance of memory, CPU, network, and other resources to run your code -->since lambda manages the resources-->you cant't log in to compute instances or customise the OS on the provided runtimes
 
 -manages capacity, monitoring, and logging your lambda functions 
 
--if you need to manage your own compute resources-->use EC2, AWS Elastic Beanstalk 
+-if you need to manage your own compute resources-->EC2, AWS Elastic Beanstalk 
 
 -can be used for any application virtually/backend that requires compute and that runs in <15min. Common use cases include: web backends, Internet of Things (IoT) backends, mobile backends, file or data processing, stream or message processing, and more 
 
@@ -20,7 +20,7 @@ AWS Lambda
 
 -highly performant and cost efficient 
 
-Amazon API Gateway 
+✍️ Amazon API Gateway 
 
 -when you need to find a way to expose the backend Lambda function-->Amazon API Gateway integrates with Lambda-->provides a way to expose the backend service without exposing to the open internet 
 
@@ -30,7 +30,7 @@ Amazon API Gateway
 
 -API Gateway supports containerised and serverless workloads and web applications
 
-Amazon EC2
+✍️ Amazon EC2
 
 -provides resizable compute capacity in the cloud -->that is, it provides virtual machines in the cloud 
 
@@ -38,7 +38,7 @@ Amazon EC2
 
 -when choosing between lambda and ec2-->if the client was willling to rewrite code, have a spiky demand for their workload-->choose lambda since lambda minimises idling resources during low volume times
 
-Amazon ECS
+✍️ Amazon ECS
 
 -fully managed container orchestration service that you can use to deploy, manage, and scale containerised applications
 
@@ -48,11 +48,9 @@ Amazon ECS
 
 -autonomous control plane operations: a fully managed service with aws configuration and operational practices built-in-with no control plane, nodes, or add-ons for you to manage. it natively integrates with both aws and third-party tools-->makes it easy for teams to focus on building the application rather than the environment 
 
-Amazon EKS 
+✍️ Amazon EKS 
 
 -a managed service that you can use to run Kubernetes on aws without needing to install, operate, and maintain your own Kubernetes control plane or nodes 
-
--open-source 
 
 -it offers: running and scaling the Kubernetes control plane across multiple aws azs, scaling control plane instances based on load, detecting and replacing unhealthy control plane instances, and providing automated version updates and patching for them 
 
@@ -65,7 +63,7 @@ Amazon EKS
 
 -you can migrate any standard kubernetes application to amazon EKS with virtually no code modification 
 
-AWS Fargate 
+✍️ AWS Fargate 
 
 -can be used with amazon ECS to run containers without managing servers/clusters of EC2 instances 
 
