@@ -1,4 +1,4 @@
-Built a Proof of Conceot for dataa analytics 
+Built a Proof of Concept for data analytics 
 
 
 
